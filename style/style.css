@@ -107,4 +107,49 @@
     align-items: center;
     gap: 10px;
     margin: 10px;
+    justify-content: center;
+}
+/*Get The Latest Deals*/
+.btn{
+    border-radius: 5px;
+    background-color: rgb(230, 227, 227);
+    padding: 10px 30px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    color:grey;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.Latest-Deals{
+    margin: 0px;
+    align-items: center;
+}
+.footer-des{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    font-weight: 400px;
+
+}
+.footer-title{
+    color: whitesmoke;
+    margin: 0px;
+    padding: 50px;
+    font-size: 48px;
+
+}
+.footer-des{
+    text-align: center;
+}
+.f-des{
+    color: whitesmoke;
+    align-items: center;
+    margin: 20px;
+}
+.copy{
+    color: whitesmoke;
+    align-items: center;
 }
