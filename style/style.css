@@ -2,6 +2,21 @@
     padding: 0px;
     margin: 0px;
 }
+.nav-containar{
+    background-color: rgb(34, 79, 79);
+    color: whitesmoke;
+    height: 70px;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-style: italic;
+    padding: 15px;
+    cursor: pointer;
+    justify-content: center;    
+}
 .btn-primary{
     border-radius: 5px;
     background-color: firebrick;
@@ -125,17 +140,21 @@
     margin-top: 20px;
 }
 .get{
- 
-     width: 1440px;
-     height: 449px;
-     flex-shrink: 0;
-     border-radius: 8px;
-     background-repeat: no-repeat;
-     background-position: center;
-
+    margin-top:  50px;
+    flex-shrink: 0;
+    width: 1440px;
+    height: 449px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-
-
+.get-title{
+    align-items: center;
+}
 .footer-des{
     background-color: black;
     width: 100%;
